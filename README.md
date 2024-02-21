@@ -2,7 +2,7 @@ Riproduzione del sito ufficiale della LEGO con React
 
 Svolgimento:
 - Suddivisione in componenti;
-- Realizzare marco componenti;
+- Realizzare macro componenti;
 - Applicare il css;
 - Realizzare la parte responsive per tablet (768px) e per smartphone (375px);
 
@@ -18,13 +18,13 @@ Stile:
 
 
 Informazioni:
-Il lavor va svolto dai micro componenti fino ad arrivare ai macro componenti;
-Ellaboriamo tutti i micro componenti sul branch develope;
+Il lavoro va svolto partendo dai micro componenti fino ad arrivare ai macro componenti;
+Elaboriamo tutti i micro componenti sul branch develope;
 Troviamo nella cartella src le seguenti cartelle:
     - js: contiene un file App.jsx. All'interno di questa cartella aggiungiamo tutti i nostri componenti(.jsx).
     - css: conterrà tutti i nostri file css, sia stile di base della pagina e sia stili personalizzati per i componenti.
     - fonts: contiene i relativi font della pagina.
-    - json: cartella che conterrà tutti i nostri file json, utilizziamo nomi differenti per ogni array di ogetti che viene create
+    - json: cartella che conterrà tutti i nostri file json, utilizziamo nomi differenti per ogni array di ogetti che viene creato
 
 P.s.: 
 Usare il nome della sezione html/classname come nome del file css".
