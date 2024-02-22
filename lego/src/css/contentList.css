@@ -1,0 +1,40 @@
+.contentBar {
+    height: 24.457rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBar ul {
+    display: inline-flex;
+    padding: 3.125rem 1.925rem;
+    margin: 0 6.531rem;
+    gap: 1.25rem;
+    justify-content: center;
+}
+
+.contentBar ul li {
+    list-style-type: none;
+    flex: 0 1 calc(16.6667%);
+}
+
+.contentBar ul li span {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-family: 'Cera-Pro-Light', sans-serif;
+    color: black;
+
+}
+
+.contentBar ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.contentBar ul li:hover {
+    text-decoration: underline;
+}
