@@ -1,7 +1,16 @@
+import { Accesses } from "./Accesses";
+import { Navbar } from "./Navbar";
+
 export function App () {
     return(
         <div>
-            <h1>Lego</h1>
+            <div>
+                <Accesses />
+            </div>
+            <div className="nav">
+                <Navbar />
+            </div>
+
         </div>
     )
 }

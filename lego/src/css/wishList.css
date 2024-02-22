@@ -1,0 +1,7 @@
+.nWishList button {
+    border: none;
+    background-color: var(--navbarYellow);
+    margin-right: 1.25rem;
+    padding: 0;
+    display: flex;
+}

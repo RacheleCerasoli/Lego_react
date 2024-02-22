@@ -1,0 +1,60 @@
+.loginGroup {
+    display: flex;
+    align-items: center;
+  }
+  
+  .laccount {
+    display: flex;
+  }
+  
+  .laccount span {
+    font-family: 'Cera-Pro-Regular', sans-serif;
+  }
+  
+  .laccount button {
+    cursor: pointer;
+  }
+  
+  .laccount button svg {
+    margin-right: 0.625rem;
+  }
+  
+  .loginGroup button {
+    border: none;
+    background-color: inherit;
+    font-size: var(--contNavSize);
+    line-height: 1.1875rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .line {
+    height: 1.25rem;
+    width: 0.0625rem;
+    background-color: rgb(117, 117, 117);
+    margin: 0 1.25rem;
+  }
+  
+  .linsiders {
+    display: flex;
+    align-items: center;
+  }
+  
+  .linsiders a {
+    font-size: var(--contNavSize);
+    line-height: 1.1875rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Cera-Pro-Regular';
+  }
+  
+  .linsiders img {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.625rem;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  

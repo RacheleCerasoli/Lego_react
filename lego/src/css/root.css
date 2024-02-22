@@ -150,3 +150,23 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
+:root {
+    --navbarYellow: rgb(255, 207, 0);
+    --buttonWhite: rgb(255, 255, 255);
+    --buttonBlack: rgb(0, 0, 0);
+    --textDefault: #141414;
+    --contBackground: rgb(73, 45, 142);
+    --buttonGreen: rgb(175, 202, 0);
+    --buttonOrange: rgb(253, 128, 36);
+    --secBackground: rgb(230, 243, 255);
+    --sec2Background: rgb(37, 129, 128);
+    --footerBackground: rgb(32, 29, 72);
+    --regionBackground: rgb(24, 21, 45);
+    --titleSize: 2.5rem;
+    --subTitleSize: 1.125rem;
+    --buttonTitle: 1rem;
+    --contNavSize: 0.75rem;
+    --secTitle: 2rem;
+    --contMargin: 1.625rem
+}

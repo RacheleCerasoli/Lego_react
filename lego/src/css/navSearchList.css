@@ -1,0 +1,24 @@
+.nSearchList button {
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.875rem;
+    color: black;
+}
+
+.nSearchList button svg {
+    color: black;
+}
+
+.nSearchList a {
+    display: flex;
+}
+
+.laccountNav {
+    display: none;
+}

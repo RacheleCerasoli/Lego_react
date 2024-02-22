@@ -1,0 +1,30 @@
+.nMenu {
+    align-items: center;
+}
+
+.nMenu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nMenu li {
+    margin-right: 3.125rem;
+}
+
+.nMenu li button {
+    border-bottom: 3px solid transparent;
+    background-color: inherit;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Cera-Pro-Regular', sans-serif;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    padding: 0;
+}
+
+.nMenu li button:hover {
+   border-bottom-color: black;
+}

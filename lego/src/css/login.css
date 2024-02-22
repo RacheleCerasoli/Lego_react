@@ -1,0 +1,37 @@
+.larea {
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .left {
+    transform: rotate(180deg);
+    width: 16px;
+    height: 15px;
+    margin-right: 0.625rem;
+  }
+  
+  .area {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    background: rgb(171, 217, 255);
+    color: black;
+    box-shadow: rgba(48, 85, 181, 0.44) 0px 1px 4px 0px;
+    padding: 0 10px ;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.5625rem;
+  }
+  
+  .area:hover {
+    background-color: var(--buttonWhite);
+  }
+  
+  .spanArea {
+    font-weight: 500;
+    font-size: var(--contNavSize);
+    font-family: 'Cera-Pro-Regular';
+  }

@@ -1,0 +1,19 @@
+.nLegoLogo  img {
+    width: 3.438rem;
+    height: auto;
+    margin-right: 4.0625rem;
+}
+
+.nLinkList {
+    display: flex;
+    align-items: center;
+    padding-left:1.875rem;
+}
+
+.nLegoLogo {
+    align-items: center;
+}
+
+.nLegoLogo a {
+    display: flex;
+}

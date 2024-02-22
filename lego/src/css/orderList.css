@@ -1,0 +1,20 @@
+.nOrderList {
+    margin-right: 1.25rem;
+    display: flex;
+}
+
+.nOrderList a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nOrderList svg {
+    margin-right: 0.3125rem;
+}
+
+.nOrderList a:hover {
+    text-decoration: underline;
+}

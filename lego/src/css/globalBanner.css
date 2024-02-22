@@ -1,0 +1,43 @@
+.lbay {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 0.75rem;
+    line-height: 1.1875rem;
+    font-weight: 400;
+    font-family: 'Cera-Pro-Light', sans-serif;
+  }
+  
+  .reverse {
+    transform: rotate(180deg);
+  }
+  
+  .lbay button {
+    border: none;
+    background-color: inherit;
+  }
+  
+  .lbay button:hover {
+    cursor: pointer;
+  }
+  
+  .lbay a {
+    color: #006db7;
+    text-decoration: none;
+    justify-content: center;
+  }
+  
+  
+  .lbay a:hover {
+    text-decoration: underline;
+  }
+  
+  .lbay svg {
+    height: var(--buttonTitle);
+  }
+  
+  .lbay div p {
+    color: black;
+    margin-top: 1.375rem;
+    display: inline;
+  }

@@ -1,0 +1,6 @@
+.loginbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 1.875rem;
+    height: 55px;
+  }
