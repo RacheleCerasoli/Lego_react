@@ -9,17 +9,22 @@ export function EasterBan() {
                 <div className="easterTopImg">
                     <img src={product.trasversal} alt=" " />
                 </div>
-                <div>
+
                     <div className="easterTopTitle">
-                        <h1>{product.eTopTitle}</h1>
+                        
                         <a href=" ">
-                            <div>
+                            <div className="eHoriImg">
                                 <img src={product.horizontal} alt=" " />
+                                </div>
+                                <div className="eTopTitleC">
+                                    <h1>{product.eTopTitle}</h1>
                                 <a href=" ">{product.eBtnTop}</a>
-                            </div>
+                                </div>
+                                
+                            
                         </a>
                     </div>
-                </div>
+                
                 <div className="easterBan">
                     <a href=" ">
                         <div>

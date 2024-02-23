@@ -5,7 +5,9 @@
 
 .easterTime {
     margin: 0 auto;
-    max-width: 100rem 
+    max-width: 100rem;
+    width: 100%;
+
 }
 
 .easter {
@@ -14,36 +16,73 @@
 
 .easterTopImg {
     height: 100%;
+    display: flex;
+    width: 100%;
 }
 
 .easterTopImg img {
     max-width: 100rem;
     height: 100%;
+    width: 100%;
 }
 
 .easterTopTitle {
     position: relative;
     height: 100%;
+    width: 100%;
+}
+
+.easterTopTitle a {
+    width: 100%;
 }
 
 .easterTopTitle h1 {
     position: absolute;
+    display: contents;
+    width: 100%;
 }
 
 .easterTopTitle a img {
     max-width: 100rem;
     height: 100%;
+    width: 100%;
 }
 
 .easterTopTitle a img a {
     background-image: url("https://www.lego.com/cdn/cs/set/assets/bltcdf16b076d620106/1914-Homepage-Landing-202403-Inpage-Nav-Large.jpg?fit=crop&amp;format=jpg&amp;quality=80&amp;width=1600&amp;height=90&amp;dpr=1");
 }
 
+.eHoriImg {
+    position: relative;
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+.eTopTitleC {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    bottom: 1%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 100%;
+}
+
 .easterBan {
     position: relative;
+    width: 100%;
 }
+
+.easterBan a div img {
+    width: 100%;
+}
+
 .easterBan a {
     position: absolute;
+    width: 100%;
 }
 .easterLink {
     position: absolute;
