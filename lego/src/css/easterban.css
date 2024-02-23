@@ -1,0 +1,76 @@
+.eLinkTitle {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+}
+
+.easterTime {
+    margin: 0 auto;
+    max-width: 100rem 
+}
+
+.easter {
+    display: grid;
+}
+
+.easterTopImg {
+    height: 100%;
+}
+
+.easterTopImg img {
+    max-width: 100rem;
+    height: 100%;
+}
+
+.easterTopTitle {
+    position: relative;
+    height: 100%;
+}
+
+.easterTopTitle h1 {
+    position: absolute;
+}
+
+.easterTopTitle a img {
+    max-width: 100rem;
+    height: 100%;
+}
+
+.easterTopTitle a img a {
+    background-image: url("https://www.lego.com/cdn/cs/set/assets/bltcdf16b076d620106/1914-Homepage-Landing-202403-Inpage-Nav-Large.jpg?fit=crop&amp;format=jpg&amp;quality=80&amp;width=1600&amp;height=90&amp;dpr=1");
+}
+
+.easterBan {
+    position: relative;
+}
+.easterBan a {
+    position: absolute;
+}
+.easterLink {
+    position: absolute;
+    max-width: 45%;
+    padding: 0px;
+    background-color: transparent;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eLinkTitle {
+    position: absolute;
+}
+.ebtn1, .ebtn2 {
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    margin-top: 1.25rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    display: flex;
+    font-weight: 500;
+    padding: 0.625rem 1.125rem;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}

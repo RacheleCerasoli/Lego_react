@@ -7,18 +7,19 @@ export function HelpUs({ help }) {
                 <img src={product.cookie} alt=" " />
             </div>
                 <div className="cookieCont">
-                    <div>
+                    <div className="cTitleC">
                         <div className="helpTitle">
                             <span className="cSpanTitle">{product.cTitle}</span>
                         </div>
-                        <div><span className="cSpanContTitle">{product.cContTitle}</span></div>
                         <div>
+                            <span className="cSpanContTitle">{product.cContTitle}</span></div>
+                        <div className="cookieLink">
                             <button>
-                                <span>{product.cookieBtn}</span></button>
-                            <a href=" "><span>{product.cookieA}</span></a>
+                                <span className="cookieLS">{product.cookieBtn}</span></button>
+                            <a href=" "><span className="cookieLS">{product.cookieA}</span></a>
                         </div>
                     </div>
-                    <img src={product.cookieEnd} alt=" " />
+                    <img className="cookies" src={product.cookieEnd} alt=" " />
                 </div></>
         ))
     }

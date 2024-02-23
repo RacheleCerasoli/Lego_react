@@ -7,6 +7,7 @@ import { card2 } from "../json/buyingOthers.js";
 import { help } from "../json/help.js"
 import "../css/cardStyle.css"
 import { HelpUs } from "./helpUs.jsx";
+import { EasterBan } from "./EasterBan.jsx";
 
 export function App() {
     return (
@@ -42,6 +43,9 @@ export function App() {
             </div>
             <div className="helpUs">
                 <HelpUs help={help}/>
+            </div>
+            <div className="easterTime">
+                <EasterBan />
             </div>
 
         </div>

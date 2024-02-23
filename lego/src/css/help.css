@@ -20,17 +20,32 @@ margin: 0 89px;
     height: 100%;
 }
 
+
 .helpUs {
         width: 100%;
-        height: 116px;
         padding: 0.3125rem;
-        margin-bottom: 2.5rem;
+        padding: 2.5rem;
         background-color: white;
+        margin: 0 auto;
+        max-width: 100rem 
 }
 
 .cookieCont {
     display: flex;
+    font-family: Cera Pro Regular,sans-serif;
+}
 
+.cTitleC {
+    display: grid;
+    margin: 0.625rem 0px;
+    grid-column: auto;
+}
+
+
+.cSpanTitle {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
 }
 
 .cookieCont .cSpanTitle {
@@ -41,4 +56,36 @@ margin: 0 89px;
 .cSpanContTitle {
     font-size: 0.875rem;
     font-weight: 400;
+    line-height: 1.5625rem;
+}
+
+.cookieLink {
+    display: flex;
+    text-align: center;
+}
+
+.cookieLink button {
+    margin-right: 1.25rem;
+    text-decoration: underline;
+    border: none;
+    padding: 0;
+}
+
+.cookieLS {
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+    background: transparent;
+    color: rgb(0, 109, 183);
+    text-decoration: underline;
+}
+
+.cookies {
+    display: block;
+    margin-left: 0.9375rem
 }
