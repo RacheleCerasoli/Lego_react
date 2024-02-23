@@ -26,7 +26,7 @@ export const content = [
     },
     {
         image : 'https://www.lego.com/cdn/cs/set/assets/blte8d0492aac3dc384/Jan-Feb-DrivePeriod-Home-202401-Quicklink-SW.png?format=webply&fit=crop&quality=75&width=120&height=97&dpr=1',
-        title : '<i>Star&nbsp;Wars</i>',
+        title : 'Star Wars',
 
     },
     {

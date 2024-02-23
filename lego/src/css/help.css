@@ -1,0 +1,44 @@
+.helpCont {
+    background: rgb(230, 243, 255);
+    border-radius: 3.3125rem;
+    display: inline-flex;
+margin: 0 89px;
+    justify-content: center;
+    height: 106px;
+    padding: 0.3125rem;
+}
+
+.cookie {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 3.3125rem;
+    text-align: center;
+    margin: 0px 0.9375rem 0px 0px;
+    height: auto;
+}
+
+.cookie img {
+    height: 100%;
+}
+
+.helpUs {
+        width: 100%;
+        height: 116px;
+        padding: 0.3125rem;
+        margin-bottom: 2.5rem;
+        background-color: white;
+}
+
+.cookieCont {
+    display: flex;
+
+}
+
+.cookieCont .cSpanTitle {
+        font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.cSpanContTitle {
+    font-size: 0.875rem;
+    font-weight: 400;
+}

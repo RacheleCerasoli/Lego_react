@@ -2,7 +2,7 @@ import "../css/wishList.css"
 
 export function WishList () {
     return (
-        <div className="nWishList">
+        <div className="nWishList cardList">
           <button>
             <svg
               xmlns="http://www.w3.org/2000/svg"

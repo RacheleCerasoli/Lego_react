@@ -4,8 +4,6 @@ import { content } from "../json/contentElements.js"
 
 export function ContentBar() {
 
-    
-
     function contentReader(content) {
         return content.map((product, index) => (
             <li key={index}>
