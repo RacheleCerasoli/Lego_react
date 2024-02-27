@@ -3,7 +3,7 @@ const CardComponent = ({ image, title, description, buy }) => {
     return (
         <div className="card">
             <img className="cardImage" src={image} alt={title} />
-            <div className="cardContent">
+            <div className="cardContent2">
                 <h3 className="cardTitle">{title}</h3>
                 <p className="cardDescription">{description}</p>
                 <button className="buyButton">{buy}</button>
