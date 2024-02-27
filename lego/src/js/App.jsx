@@ -8,6 +8,8 @@ import { help } from "../json/help.js"
 import "../css/cardStyle.css"
 import { HelpUs } from "./helpUs.jsx";
 import { EasterBan } from "./EasterBan.jsx";
+import { FavoritesWeekComponent } from "./favoriteweekcomponent";
+
 
 export function App() {
     return (
@@ -21,14 +23,15 @@ export function App() {
             <div id="banner">
 
             </div>
-            
+
             <div id="content" className="evidenza pad">
                 <div className="contentBar">
                     <ContentBar />
                 </div>
             </div>
             <div className="preferiti">
-
+                <FavoritesWeekComponent />
+            
             </div>
             <div className="evidenza border pad">
                 <h2 className="h2Title">Set in evidenza</h2>
@@ -42,7 +45,7 @@ export function App() {
                 <Card card={card2} />
             </div>
             <div className="helpUs">
-                <HelpUs help={help}/>
+                <HelpUs help={help} />
             </div>
             <div className="easterTime">
                 <EasterBan />

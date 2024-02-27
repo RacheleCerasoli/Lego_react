@@ -1,0 +1,19 @@
+.favoritescsrdContainer {
+    background-color: rgb(225, 249, 224);
+    padding: 40px 20px;
+
+}
+
+.favoritesContainer {
+    display: flex;
+}
+
+.buyButton {
+    border: none;
+    outline: none;
+    background-color: rgb(225, 249, 224);
+}
+
+.cardContent2 {
+    align-items: center;
+}

@@ -8,7 +8,7 @@ export const favoritesWeek = [
     {
         image: "https://www.lego.com/cdn/cs/set/assets/blt7fa882db4eccf504/10331-HT-202402-Block-Standard.jpg?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1",
         title: "Crea un progetto affascinante",
-        description: "Il nuovo set Martin pescatore LEGO Icons aggiunge il fascino della natura a qualsisi spazio.",
+        description: "Il nuovo set Martin pescatore LEGO Icons aggiunge il fascino della natura a qualsiasi spazio.",
         buy: "Compra ora",
     },
     {
