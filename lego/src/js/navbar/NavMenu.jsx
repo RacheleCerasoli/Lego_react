@@ -1,4 +1,4 @@
-import "../css/navMenu.css"
+import "../../css/navbar/navMenu.css"
 
 export function NavMenu() {
     return (

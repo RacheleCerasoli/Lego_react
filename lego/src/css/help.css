@@ -60,8 +60,9 @@ margin: 0 89px;
 }
 
 .cookieLink {
-    display: flex;
+    display: inline-flex;
     text-align: center;
+    align-items: center;
 }
 
 .cookieLink button {

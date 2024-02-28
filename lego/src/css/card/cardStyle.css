@@ -46,3 +46,7 @@
 .marg li .card .cardContent .cardTitleCont .ratePriceCont .cardPriceCont {
     padding: 0;
 }
+
+html::-webkit-scrollbar {
+    width: 20px
+}

@@ -37,6 +37,7 @@
   
   .bottomImgCont {
     display: flex;
+    position: absolute;
   }
   
   .cardImgCont {
@@ -52,6 +53,10 @@
   .aImg {
     overflow: hidden;
     cursor: pointer;
+  }
+
+  .aImg div {
+    position: relative;
   }
   
   .cardImage {
@@ -70,6 +75,12 @@
     width: auto;
     height: 26px;
     background-color: rgb(255, 207, 0);
+    position: relative;
+    right: 19.5rem;
+    top: 7.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   
@@ -150,7 +161,17 @@
   }
   
   .cardList {
-    position: relative;
-    bottom: 120px;
-    right: 85px;
+    position: absolute;
+    bottom: 7.3rem;
+    right: 16.4rem;
+  }
+
+  .cardList .nWishList button{
+    background-color:transparent
+  }
+
+  .cardList svg {
+    width: 15px;
+    height: 13.5px;
+    color: rgb(0, 109, 183);
   }

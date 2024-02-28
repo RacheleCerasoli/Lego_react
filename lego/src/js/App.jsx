@@ -1,11 +1,11 @@
-import { Accesses } from "./Accesses";
-import { Card } from "./Card";
+import { Accesses } from "./login/Accesses.jsx";
+import { Card } from "./card/Card.jsx";
 import { ContentBar } from "./ContentBar";
-import { Navbar } from "./Navbar";
+import { Navbar } from "./navbar/Navbar.jsx";
 import { card } from "../json/cardEvidenza.js";
 import { card2 } from "../json/buyingOthers.js";
 import { help } from "../json/help.js"
-import "../css/cardStyle.css"
+import "../css/card/cardStyle.css"
 import { HelpUs } from "./helpUs.jsx";
 import { EasterBan } from "./EasterBan.jsx";
 import { FavoritesWeekComponent } from "./favoriteweekcomponent";
@@ -32,7 +32,7 @@ export function App() {
             </div>
             <div className="preferiti">
                 <FavoritesWeekComponent />
-            
+
             </div>
             <div className="evidenza border pad">
                 <h2 className="h2Title">Set in evidenza</h2>
@@ -52,7 +52,6 @@ export function App() {
             <div className="easterTime">
                 <EasterBan />
             </div>
-
         </div>
     )
 }

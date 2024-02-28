@@ -1,7 +1,7 @@
 import { SearchList } from "./NavSearchList";
-import { OrderList } from "./OrderList";
-import { WishList } from "./WishList";
-import "../css/navRightSide.css"
+import { OrderList } from "../OrderList";
+import { WishList } from "../WishList";
+import "../../css/navbar/navRightSide.css"
 
 export function NavRightSide () {
     return (

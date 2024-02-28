@@ -1,4 +1,4 @@
-import "../css/globalBanner.css";
+import "../../css/login/globalBanner.css";
 
 export function GlobalBanner() {
 

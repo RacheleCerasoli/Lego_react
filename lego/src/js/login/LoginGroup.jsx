@@ -1,4 +1,4 @@
-import "../css/loginGroup.css"
+import "../../css/login/loginGroup.css"
 
 export function LoginGroup () {
     return (

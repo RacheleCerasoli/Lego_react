@@ -1,5 +1,5 @@
-import { WishList } from "./WishList";
-import "../css/card.css";
+import { WishList } from "../WishList";
+import "../../css/card/card.css";
 
 export function Card({ card }) {
   function cardReader(products) {
@@ -22,7 +22,7 @@ export function Card({ card }) {
                     <span className="cardInfoSpan">{product.info}</span>
                   </div>
                 </div>
-                <div className="likeCont likeBtn cardLike">{<WishList />}</div>
+                <div className="likeCont likeBtn cardLike"><div className="cardList">{<WishList />}</div></div>
               </div>
             </div>
             </div>

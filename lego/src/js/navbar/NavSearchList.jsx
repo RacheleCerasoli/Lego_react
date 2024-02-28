@@ -1,4 +1,4 @@
-import "../css/navSearchList.css"
+import "../../css/navbar/navSearchList.css"
 
 export function SearchList () {
     return (
