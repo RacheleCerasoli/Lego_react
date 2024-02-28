@@ -9,6 +9,7 @@ import "../css/cardStyle.css"
 import { HelpUs } from "./helpUs.jsx";
 import { EasterBan } from "./EasterBan.jsx";
 import { FavoritesWeekComponent } from "./favoriteweekcomponent";
+import { CardInsiderComponent } from "./cardInsidercomponent";
 
 
 export function App() {
@@ -38,6 +39,7 @@ export function App() {
                 <Card card={card} />
             </div>
             <div className="insiders">
+                <CardInsiderComponent />
 
             </div>
             <div className="others border marg">

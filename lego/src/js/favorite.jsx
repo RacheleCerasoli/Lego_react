@@ -1,4 +1,3 @@
-
 const CardComponent = ({ image, title, description, buy }) => {
     return (
         <div className="card">

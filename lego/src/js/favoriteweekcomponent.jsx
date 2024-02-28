@@ -1,12 +1,12 @@
 import { favoritesWeek } from "../json/favoritesWeek";
-import  CardComponent  from "./favorite";
+import CardComponent from "./favorite";
 import "../css/cardweekStyle.css";
 
 export const FavoritesWeekComponent = () => {
     return (
-        <div className="favoritescsrdContainer">
-            <h2>Prodotti Preferiti della Settimana</h2>
-            <div className="favoritesContainer">
+        <div className="cardcontainerweek">
+            <h2>I preferiti di questa settimana</h2>
+            <div className="container1">
                 {favoritesWeek.map((item, index) => (
                     <CardComponent key={index} {...item} />
                 ))}

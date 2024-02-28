@@ -1,10 +1,9 @@
-.favoritescsrdContainer {
+.cardcontainerweek {
     background-color: rgb(225, 249, 224);
     padding: 40px 20px;
-
 }
 
-.favoritesContainer {
+.container1 {
     display: flex;
 }
 
@@ -14,6 +13,24 @@
     background-color: rgb(225, 249, 224);
 }
 
-.cardContent2 {
-    align-items: center;
+.cardImageInsider {
+    padding: 0px 0px 0px 20px
+}
+
+.cardcontainer1 {
+    padding: 40px 20px;
+}
+
+.buyButtonInsider {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.buyButton:hover {
+    text-decoration: underline;
+}
+
+.buyButtonInsider:hover {
+    text-decoration: underline;
 }
