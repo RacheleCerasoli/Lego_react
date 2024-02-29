@@ -1,7 +1,7 @@
 const CardComponent = ({ image, title, description, buy }) => {
     return (
-        <div className="card">
-            <img className="cardImage" src={image} alt={title} />
+        <div className="cardweek">
+            <img className="cardImageWeek" src={image} alt={title} />
             <div className="cardContent2">
                 <h3 className="cardTitle">{title}</h3>
                 <p className="cardDescription">{description}</p>

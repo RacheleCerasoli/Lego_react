@@ -1,6 +1,6 @@
 const Cardlegoinsider = ({ image, title, description, buy }) => {
     return (
-        <div className="card">
+        <div className="cardinsider">
             <img className="cardImageInsider" src={image} alt={title} />
             <div className="cardContent2">
                 <h3 className="cardTitleInsider">{title}</h3>

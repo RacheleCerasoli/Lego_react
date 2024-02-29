@@ -13,12 +13,14 @@
     background-color: rgb(225, 249, 224);
 }
 
-.cardImageInsider {
-    padding: 0px 0px 0px 20px
+.cardImageInsider, .cardImageWeek {
+    padding-right: 20px;
+    
 }
 
 .cardcontainer1 {
     padding: 40px 20px;
+
 }
 
 .buyButtonInsider {
@@ -27,10 +29,29 @@
     background-color: white;
 }
 
-.buyButton:hover {
-    text-decoration: underline;
-}
-
+.buyButton:hover,
 .buyButtonInsider:hover {
     text-decoration: underline;
 }
+
+.cardContent2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cardweek,
+.cardinsider {
+    font-family: Cera-Pro, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-width: 18.359rem;
+    height: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
