@@ -2,6 +2,7 @@ import { WishList } from "../WishList";
 import "../../css/card/card.css";
 
 export function Card({ card }) {
+  
   function cardReader(products) {
     return products.map((product, index) => (
       <li key={index}>
@@ -19,7 +20,9 @@ export function Card({ card }) {
               <div className="titleSection">
                 <div className="bottomImgCont">
                   <div className="cardInfoCont">
-                    <span className="cardInfoSpan">{product.info}</span>
+                  {product.info.length > 0 &&
+                   <span className="cardInfoSpan">{product.info}</span>
+                  }
                   </div>
                 </div>
                 <div className="likeCont likeBtn cardLike"><div className="cardList">{<WishList />}</div></div>

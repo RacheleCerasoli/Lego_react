@@ -10,6 +10,7 @@ import { HelpUs } from "./helpUs.jsx";
 import { EasterBan } from "./EasterBan.jsx";
 import { FavoritesWeekComponent } from "./favoriteweekcomponent";
 import { CardInsiderComponent } from "./cardInsidercomponent";
+import { InfoSection } from "./InfoSection.jsx";
 import { EasterCardComponent } from "./Eastercardcomponent.jsx";
 
 
@@ -44,14 +45,16 @@ export function App() {
 
             </div>
             <div className="others border marg">
-                <h2 className="h2Title">Cosa stanno comprando gli altri</h2>
-                <Card card={card2} />
+                <Card card={card2} />              
             </div>
             <div className="helpUs">
                 <HelpUs help={help} />
             </div>
             <div className="easterTime">
                 <EasterBan />
+            </div>
+            <div>
+                <InfoSection />
             </div>
             <div className="easteIdea">
                 <EasterCardComponent />

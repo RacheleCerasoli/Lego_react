@@ -3,6 +3,26 @@ body {
     font-family: Cera-Pro, sans-serif;
 }
 
+body::-webkit-scrollbar {
+    display: block;
+}
+
+/* ul::-webkit-scrollbar {
+    padding-top: 5rem;
+    height: 0.3125rem;
+    width: 100%;
+
+  }
+  
+  ul::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.15);        
+  }
+  
+  ul::-webkit-scrollbar-thumb {
+    width: 135px;
+    background-color: rgba(0, 0, 0, 0.55);
+  } */
+
 @font-face {
     font-family: 'Cera-Pro-Black';
     src: url('../fonts/Cera-Pro-Black.otf') format('opentype');
