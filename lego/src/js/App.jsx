@@ -43,8 +43,7 @@ export function App() {
 
             </div>
             <div className="others border marg">
-                <h2 className="h2Title">Cosa stanno comprando gli altri</h2>
-                <Card card={card2} />
+                <Card card={card2} />              
             </div>
             <div className="helpUs">
                 <HelpUs help={help} />

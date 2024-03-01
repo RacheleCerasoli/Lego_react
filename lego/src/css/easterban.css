@@ -7,39 +7,43 @@
     margin: 0 auto;
     max-width: 100rem;
     width: 100%;
-
 }
 
 .easter {
-    display: grid;
+    display: inline-grid;
 }
 
 .easterTopImg {
-    height: 100%;
     display: flex;
     width: 100%;
+    height: 90px;
 }
 
 .easterTopImg img {
     max-width: 100rem;
-    height: 100%;
     width: 100%;
 }
 
 .easterTopTitle {
     position: relative;
-    height: 100%;
     width: 100%;
+    height: 90px;
 }
 
 .easterTopTitle a {
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
     width: 100%;
+    height: 100%;
+    justify-content: center;
 }
 
 .easterTopTitle h1 {
-    position: absolute;
-    display: contents;
-    width: 100%;
+    margin: 0;
+    margin-right: 2.239rem;
+    color: black;
+    font-family: 'Cera-Pro-Bold';
 }
 
 .easterTopTitle a img {
@@ -53,22 +57,61 @@
 }
 
 .eHoriImg {
-    position: relative;
     height: 100%;
-    display: flex;
-    width: 100%;
+    position: absolute;
 }
 
 .eTopTitleC {
-    position: absolute;
-    left: 45%;
-    bottom: 1%;
-    display: inline;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.easterBan {
-    position: relative;
+.eTopTitleC a {
+    width: 93.109px;
+    height: 40px;
+    display: flex;
+    text-decoration: none;
+    border: 2px solid #0009;
+    border-radius: 22px;
+    background-clip: padding-box;
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-family: 'Cera-Pro-Regular';
+}
+
+.eTopTitleC a:hover {
+    background-color: #000000ab;
+    color: white;
+    border-color: #000000ab;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.eTopTitleC a :first-child {
+    height: auto;
     width: 100%;
+    text-decoration: none;
+}
+
+.eTopTitleC a :first-child:hover {
+    color: white;
+}
+
+.eTopTitleC a :nth-child(2) {
+    height: auto;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.easterBan {
+    max-height: 31.25rem;
+    height: 100%;
 }
 
 .easterBan a div img {
@@ -76,29 +119,55 @@
 }
 
 .easterBan a {
-    position: absolute;
-    width: 100%;
+
 }
 .easterLink {
     position: absolute;
-    max-width: 45%;
     padding: 0px;
     background-color: transparent;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.easterLink a {
+    text-decoration: none;
+}
+
+.easterLink a:hover {
+    background-color: white;
+    color: black;
+}
+
+.easterLink a svg {
+    margin-left: 0.75rem;
+    line-height: 0;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+}
+
+.eLink {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 77%;
 }
 
 .eLinkTitle {
-    position: absolute;
-    left: 49rem;
-    top: 12.3rem;
-    transform: translate(-50%, -50%);
+    position: relative;
     width: 33%;
+
+}
+
+.eLinkTitle h2 {
+    margin: 0;
+    text-align: center;
 }
 
 .eLinkTitle h2 span {
 font-size: 2.5rem;
+font-family: 'Cera-Pro-Regular';
 }
 
 .ebtn1, .ebtn2 {
@@ -115,5 +184,15 @@ font-size: 2.5rem;
     text-align: center;
     justify-content: center;
     align-items: center;
+    display: inline-block;
+    width: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: transparent;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: none;
+
 
 }
