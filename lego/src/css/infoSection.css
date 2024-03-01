@@ -1,0 +1,27 @@
+.info-section {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.infoSectionCont {
+    padding: 2.5rem 1.25rem;
+}
+
+.infoCont {
+    padding: 1.25rem;
+    margin: 0 1rem;
+    background-color: #f2f2f2;
+}
+
+.infoCont span {
+    font-size: 0.875rem;
+    font-family: 'Cera-Pro-Thin';
+    margin: 1rem 0;
+    line-height: 1.1875rem;
+    font-weight: 600;
+}
+
+.infoCont span a {
+    text-decoration: none;
+    color: #006db7;
+}

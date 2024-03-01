@@ -10,6 +10,7 @@ import { HelpUs } from "./helpUs.jsx";
 import { EasterBan } from "./EasterBan.jsx";
 import { FavoritesWeekComponent } from "./favoriteweekcomponent";
 import { CardInsiderComponent } from "./cardInsidercomponent";
+import { InfoSection } from "./InfoSection.jsx";
 
 
 export function App() {
@@ -50,6 +51,9 @@ export function App() {
             </div>
             <div className="easterTime">
                 <EasterBan />
+            </div>
+            <div>
+                <InfoSection />
             </div>
         </div>
     )
