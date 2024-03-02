@@ -6,6 +6,7 @@ import { card } from "../json/cardEvidenza.js";
 import { card2 } from "../json/buyingOthers.js";
 import { help } from "../json/help.js"
 import "../css/card/cardStyle.css"
+import "../css/mediaquery/mediaCardStyle.css"
 import { HelpUs } from "./helpUs.jsx";
 import { EasterBan } from "./EasterBan.jsx";
 import { FavoritesWeekComponent } from "./favoriteweekcomponent";
@@ -17,17 +18,21 @@ import { EasterCardComponent } from "./Eastercardcomponent.jsx";
 export function App() {
     return (
         <div className="fullPage">
-            <div id="login">
+
+        <header>
+        <div id="login">
                 <Accesses />
             </div>
             <div id="nav">
                 <Navbar />
             </div>
+            </header>
+            
             <div id="banner">
 
             </div>
 
-            <div id="content" className="evidenza pad">
+            <div id="content" className="evidenza pad cont">
                 <div className="contentBar">
                     <ContentBar />
                 </div>
@@ -53,7 +58,7 @@ export function App() {
             <div className="easterTime">
                 <EasterBan />
             </div>
-            <div>
+            <div className="infos">
                 <InfoSection />
             </div>
             <div className="easteIdea">

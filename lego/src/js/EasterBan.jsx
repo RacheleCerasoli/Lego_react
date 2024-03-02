@@ -1,5 +1,6 @@
 import { easterBan } from "../json/easterBan"
 import "../css/easterban.css"
+import "../css/mediaquery/mediaEasterBan.css"
 
 export function EasterBan() {
 

@@ -1,0 +1,152 @@
+@media screen and (max-width: 768px) {
+    
+    .navbar {
+        background-color: #ffff;
+        height: 52px;
+    }
+
+    .burgerMenu {
+        width: 64px;
+        height: 52px;
+        align-items: center;
+        display: block;
+    }
+
+    .burgerMenu button {
+        border: none;
+        background-color: inherit;
+        display: grid;
+        padding: 12px 24px;
+    }
+
+    .burgerMenu button img {
+        padding-bottom: 0.5rem;
+    }
+
+    .burgerMenu span {
+        font-size: 0.5rem;
+        text-transform: uppercase;
+        line-height: 1;
+    }
+
+    .nLegoLogo a img {
+        width: 40px;
+        height: auto;
+    }
+
+    .nMenu ul {
+        display: none;
+    }
+
+    .laccountNav {
+        display:block
+    }
+
+    .laccountNav button {
+        border: none;
+        background-color: inherit;
+        margin-right: 1.25rem;
+        padding: 0;
+    }
+
+    .nWishList {
+        height: 2.125rem;
+    }
+
+    .nWishList button {
+        background-color: white;
+        margin-right: 1.25rem;
+        padding: 0;
+    }
+
+    .nList {
+        padding: 0;
+        margin:0;
+    }
+
+    .nSearchList button {
+        margin-right: 1.25rem;
+        padding: 0;
+        width: 18px;
+        align-items: baseline;
+    }
+
+    .nSearchList {
+        height: 2.125rem;
+        margin-right: 2.5rem;
+    }
+
+    .nLinkList {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nOrderList a {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .larea {
+        display: none;
+    }
+
+    .lbay {
+        position: relative;
+    left: 2%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    }
+
+    .loginGroup {
+        position: relative;
+    top: 98%;
+    right: 6.5%;
+    }
+
+    .laccount {
+        display: block;
+        margin-right: 1.25rem;
+        height: 2.125rem;
+        align-items: baseline;
+    }
+
+    .laccount button {
+        padding: 0;
+    }
+
+    .laccount button svg {
+        margin: 0;
+    }
+
+    .laccount  span{ 
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+    .linsiders {
+        display: none
+    }
+
+    .nOrderList svg {
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .lbay {
+        left: 6%;
+    }
+
+    .loginGroup {
+        right: 14.5%
+    }
+}

@@ -1,4 +1,5 @@
 import "../css/help.css"
+import "../css/mediaquery/mediaHelp.css"
 
 export function HelpUs({ help }) {
     function cardReader(products) {

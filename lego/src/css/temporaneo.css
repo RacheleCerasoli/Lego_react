@@ -1,0 +1,36 @@
+@media screen and (max-width: 375px) {
+
+.easterTopImg {
+    display: none;
+}
+
+.easterTopTitle a {
+    font-size: 0.75rem;
+}
+
+.eTopTitleC h1 {
+    margin-right: 1rem;
+}
+
+.eTopTitleC a div {
+    font-size: 0.85rem;
+}
+
+.easterBan {
+    max-height: 11rem;
+}
+
+.easterBan a div {
+    display: flex;
+    justify-content: center;
+}
+
+.eLink {
+    height: 100%;
+}
+
+.eLinkTitle {
+    line-height: 1.125rem;
+    font-size: 3.5rem;
+}
+}

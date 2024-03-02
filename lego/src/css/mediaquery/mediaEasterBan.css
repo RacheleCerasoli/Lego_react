@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+
+    .easterBan {
+        max-height: 15rem;
+    }
+
+    .eLink {
+        bottom: 100%;
+    }
+
+    .eLinkTitle {
+        width: 50%;
+    }
+
+    .eLinkTitle h2 {
+        width: 90%;
+    }
+
+    .eLinkTitle h2 span {
+        font-size: 1.25rem;
+    }
+
+    .ebtn1, .ebtn2 {
+        font-size: 0.875rem;
+        line-height: 1.1875rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .easterTopImg {
+        display: none;
+    }
+    
+    .easterTopTitle a {
+        font-size: 0.75rem;
+    }
+    
+    .eTopTitleC h1 {
+        margin-right: 1rem;
+    }
+    
+    .eTopTitleC a div {
+        font-size: 0.85rem;
+    }
+    
+    .easterBan {
+        max-height: 11rem;
+    }
+    
+    .easterBan a div {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .eLink {
+        height: 100%;
+        bottom: 70%;
+    }
+    
+    .eLinkTitle {
+        line-height: 1.125rem;
+        font-size: 3.5rem;
+    }
+    .easterLink {
+        right: -25%;
+        width: 151%;
+    }
+    .ebtn1, .ebtn2 {
+        padding: 0.5rem;
+    }
+    
+    }

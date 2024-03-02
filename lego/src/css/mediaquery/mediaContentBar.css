@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px) {
+
+  #content {
+    line-height: 1.5rem;
+    padding: 0;
+  }
+
+  .cont {
+    padding: 0;
+  }
+
+  .contentBar {
+    gap: 1.25rem;
+    justify-content: center;
+    max-width: 100rem;
+    width: 100%;
+  }
+
+  .contentBar ul {
+    padding: 1.5rem 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .contentBar ul li {
+    padding-bottom: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 4.625rem;
+    width: 100%;
+  }
+
+  .contentBar ul li a {
+    width: 100%;
+  }
+
+  .contentBar ul li a img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+    .contentBar ul {
+        flex-wrap: wrap;
+    }
+
+    .contentBar ul li {
+        padding-bottom: 0;
+    }
+
+    .contentBar ul li span {
+        letter-spacing: .01em;
+    line-height: 162%;
+    font-weight: 500;
+    }
+
+}

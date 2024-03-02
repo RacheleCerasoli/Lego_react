@@ -1,4 +1,5 @@
 import "../css/infoSection.css"
+import "../css/mediaquery/mediaInfoSection.css"
 
 export function InfoSection() {
     return (<div className="info-section">

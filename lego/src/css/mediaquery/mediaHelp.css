@@ -1,0 +1,62 @@
+@media screen and (max-width: 768px) {
+    .helpUs {
+        padding: 0;
+        margin-bottom: 1.875rem;
+    }
+
+    .helpCont {
+        margin: 0;
+    }
+    
+    .cSpanTitle {
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    font-weight: 700;
+    text-transform: inherit;
+    }
+
+    
+ .cSpanContTitle{
+    font-size: 0.75rem;
+    line-height: 1.5625rem;
+    font-weight: 400;
+    text-transform: inherit;
+ }
+
+ .cookieLS {
+    font-size: 0.75rem;
+    line-height: 1.5625rem;
+    font-weight: 500;
+    text-transform: inherit;
+ }
+}
+
+@media screen and (max-width: 375px) {
+
+    .helpUs {
+        margin-bottom: 1.25rem;
+        height: auto;
+    }
+    
+    .helpCont {
+        height: 100%;
+        border-radius: 0;
+    }
+    
+    .cookie {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .cookie img {
+        width: 100%;
+    }
+
+    .cookies {
+        display: none;
+    }
+
+    .cookieCont .cSpanTitle {
+        font-size: 0.875rem
+    }
+    }
