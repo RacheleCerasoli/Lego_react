@@ -1,0 +1,180 @@
+body {
+    font-family: Cera Pro, sans-serif;
+    text-align: left;
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(32, 29, 72);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 1rem;
+    font-family: Cera Pro, sans-serif;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 20px 20px 0px 
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+
+ul li {
+    list-style-type: none;
+    padding: 10px;
+    padding-top: 20px;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-button {
+    display: flex;
+    gap: 0;
+    height: 53px;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 19px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1.25rem;
+    margin-top: 0px;
+    
+
+}
+
+.info-list {
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+
+}
+
+.footer-img {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    margin-bottom: 1.25rem;
+}
+
+.follow {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 124px;
+}
+
+.footer-link-list {
+    padding-left: 10px;
+
+}
+
+.list-link {
+    display: flex;
+
+}
+
+.input-class {
+    display: flex;
+    gap: 0;
+    width: 190px;
+    height: auto;
+    text-align: center;
+    border-color: white;
+    
+}
+
+.button-class {
+    width: 50px;
+    height: auto;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(253, 128, 36);
+    border-color: rgb(253, 128, 36);
+}
+
+.button-1 {
+    padding: 7px 20px 5px 9px;
+    background-color: rgb(24, 21, 45);
+    color: white;
+    border: 0;
+
+}
+
+.footer-link-style {
+    flex: 1 1 0;
+    padding-left: 10px;
+    margin-right: 20px;
+    max-width: 245px;
+
+}
+
+footer ul {
+    text-align: left;
+    padding: 0;
+}
+
+.footer-wrapper {
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social {
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer-social a {
+    margin: 0 1.25rem 0 0;
+}
+
+.subscribe {
+    padding-top: 80px;
+}
+
+.ciao {
+    padding-left: 130px;
+
+}
+
+.izbKLk {
+    margin: 0px 0.625rem 0px 0px;
+    vertical-align: middle;
+}
+
+.kNvokt svg {
+    display: block;
+    
+}

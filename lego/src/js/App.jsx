@@ -12,24 +12,27 @@ import { EasterBan } from "./EasterBan.jsx";
 import { FavoritesWeekComponent } from "./favoriteweekcomponent";
 import { CardInsiderComponent } from "./cardInsidercomponent";
 import { InfoSection } from "./InfoSection.jsx";
-import { EasterCardComponent } from "./Eastercardcomponent.jsx";
+//import { EasterCardComponent } from "./Eastercardcomponent.jsx";
+import { BanSuperiorComponent } from "./Bancomponent.jsx";
+import { FooterComponent } from "./footerElement.jsx";
+
 
 
 export function App() {
     return (
         <div className="fullPage">
 
-        <header>
-        <div id="login">
-                <Accesses />
-            </div>
-            <div id="nav">
-                <Navbar />
-            </div>
+            <header>
+                <div id="login">
+                    <Accesses />
+                </div>
+                <div id="nav">
+                    <Navbar />
+                </div>
             </header>
-            
-            <div id="banner">
 
+            <div id="banner">
+                <BanSuperiorComponent />
             </div>
 
             <div id="content" className="evidenza pad cont">
@@ -50,7 +53,7 @@ export function App() {
 
             </div>
             <div className="others border marg">
-                <Card card={card2} />              
+                <Card card={card2} />
             </div>
             <div className="helpUs">
                 <HelpUs help={help} />
@@ -61,8 +64,11 @@ export function App() {
             <div className="infos">
                 <InfoSection />
             </div>
-            <div className="easteIdea">
+            {/* <div className="easteIdea">
                 <EasterCardComponent />
+            </div> */}
+            <div className="footer">
+                <FooterComponent />
             </div>
         </div>
     )
