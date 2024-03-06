@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-    
+
     .navbar {
         background-color: #ffff;
         height: 52px;
@@ -39,7 +39,7 @@
     }
 
     .laccountNav {
-        display:block
+        display: block
     }
 
     .laccountNav button {
@@ -61,7 +61,7 @@
 
     .nList {
         padding: 0;
-        margin:0;
+        margin: 0;
     }
 
     .nSearchList button {
@@ -97,16 +97,16 @@
 
     .lbay {
         position: relative;
-    left: 2%;
-    width: 100%;
-    display: inline-flex;
-    justify-content: space-evenly;
+        left: 2%;
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-evenly;
     }
 
     .loginGroup {
         position: relative;
-    top: 98%;
-    right: 6.5%;
+        top: 98%;
+        right: 6.5%;
     }
 
     .laccount {
@@ -124,13 +124,14 @@
         margin: 0;
     }
 
-    .laccount  span{ 
+    .laccount span {
         display: none;
     }
 
     .line {
         display: none;
     }
+
     .linsiders {
         display: none
     }

@@ -1,0 +1,58 @@
+.imagebanner {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.buttonbanner {
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    margin-top: 1.25rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    display: flex;
+    font-weight: 500;
+    padding: 0.625rem 1.125rem;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    width: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: transparent;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.contentban2 {
+    position: absolute;
+    max-width: 45%;
+    padding-top: 15rem;
+    background-color: transparent;
+    text-align: left;
+    left: 3.75rem;
+    top: 30%;
+    transform: translateY(-50%);
+    padding-left: 5rem;
+}
+
+.kRIbhw {
+    margin-left: 0.75rem;
+    height: 16px;
+    width: 16px;
+
+}
+
+.buttonbanner:hover {
+    background-color: white;
+    color: black;
+}
+
+section {
+    font-family: Cera Pro, sans-serif;
+}
