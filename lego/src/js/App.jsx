@@ -13,6 +13,14 @@ import { FavoritesWeekComponent } from "./favoriteweekcomponent";
 import { CardInsiderComponent } from "./cardInsidercomponent";
 import { InfoSection } from "./InfoSection.jsx";
 import { EasterCardComponent } from "./Eastercardcomponent.jsx";
+import { GlobalBanner2, GlobalBannerCarousel2 } from "./login/GlobalBanner2.jsx";
+import { Prova } from "./login/prova.js";
+import { global } from "../json/lbay.js"
+import { GlobalBannerCarousel } from "./login/GlobalBannerCarousel.jsx";
+import ProgressMobileStepper from "./card/Card copy.jsx";
+import TemporaryDrawer from "./navbar/Drawer.jsx";
+import { NavMenu2 } from "./navbar/NavMenu copy.jsx";
+import { navMenu } from "../json/navMenu.js"
 
 
 export function App() {
@@ -63,6 +71,15 @@ export function App() {
             </div>
             <div className="easteIdea">
                 <EasterCardComponent />
+            </div>
+
+
+            <div>
+                <TemporaryDrawer />
+            </div>
+
+            <div>
+                <NavMenu2 navMenu={navMenu} />
             </div>
         </div>
     )

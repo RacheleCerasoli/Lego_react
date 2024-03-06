@@ -3,6 +3,7 @@ import "../../css/card/card.css";
 import ProgressMobileStepper from "./Card copy";
 
 export function Card({ card }) {
+
   
   function cardReader(products) {
     return products.map((product, index) => (
