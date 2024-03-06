@@ -22,6 +22,8 @@ import ProgressMobileStepper from "./card/Card copy.jsx";
 import TemporaryDrawer from "./navbar/Drawer.jsx";
 import { NavMenu2 } from "./navbar/NavMenu copy.jsx";
 import { navMenu } from "../json/navMenu.js"
+import "../css/banner.css";
+import "../css/insiders.css"
 
 
 export function App() {
@@ -75,15 +77,6 @@ export function App() {
             </div> */}
             <div className="footer">
                 <FooterComponent />
-            </div>
-
-
-            <div>
-                <TemporaryDrawer />
-            </div>
-
-            <div>
-                <NavMenu2 navMenu={navMenu} />
             </div>
         </div>
     )
