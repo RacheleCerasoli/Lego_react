@@ -15,8 +15,6 @@ import { InfoSection } from "./InfoSection.jsx";
 //import { EasterCardComponent } from "./Eastercardcomponent.jsx";
 import { BanSuperiorComponent } from "./Bancomponent.jsx";
 import { FooterComponent } from "./footerElement.jsx";
-
-import { GlobalBanner2, GlobalBannerCarousel2 } from "./login/GlobalBanner2.jsx";
 import { Prova } from "./login/prova.js";
 import { global } from "../json/lbay.js"
 import { GlobalBannerCarousel } from "./login/GlobalBannerCarousel.jsx";
