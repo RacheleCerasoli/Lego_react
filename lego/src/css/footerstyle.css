@@ -120,12 +120,19 @@ footer p {
     border-color: rgb(253, 128, 36);
 }
 
+.button-class:hover {
+    cursor: pointer;
+}
+
 .button-1 {
     padding: 7px 20px 5px 9px;
     background-color: rgb(24, 21, 45);
     color: white;
     border: 0;
+}
 
+.button-1:hover {
+    cursor: pointer;
 }
 
 .footer-link-style {

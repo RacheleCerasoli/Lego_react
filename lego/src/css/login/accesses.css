@@ -3,4 +3,6 @@
     padding: 0px 1.875rem;
     height: 55px;
     background-color: white;
+    z-index: 1;
+    position: relative;
   }

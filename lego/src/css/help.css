@@ -69,6 +69,12 @@ margin: 0 89px;
     text-decoration: underline;
     border: none;
     padding: 0;
+    background-color: transparent;
+    text-decoration-color: rgb(0, 109, 183);
+}
+
+.cookieLink button:hover {
+    cursor: pointer;
 }
 
 .cookieLS {
@@ -84,6 +90,9 @@ margin: 0 89px;
     color: rgb(0, 109, 183);
     text-decoration: underline;
 }
+
+.cookieLink
+
 
 .cookies {
     display: block;

@@ -158,6 +158,7 @@
 
   .productAvailability button:hover {
     background-color: white;
+    cursor: pointer;
   }
   
   .cardList {

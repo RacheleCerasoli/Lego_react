@@ -22,3 +22,7 @@
 .laccountNav {
     display: none;
 }
+
+.nSearchList button:hover {
+    cursor: pointer;
+}

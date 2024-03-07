@@ -16,13 +16,14 @@
     border-bottom: 3px solid transparent;
     background-color: inherit;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
     font-family: 'Cera-Pro-Regular', sans-serif;
     border-left-style: none;
     border-right-style: none;
     border-top-style: none;
     padding: 0;
+    cursor: pointer;
 }
 
 .nMenu li button:hover {
