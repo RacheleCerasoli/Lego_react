@@ -7,7 +7,7 @@ body::-webkit-scrollbar {
     display: block;
 }
 
-/* ul::-webkit-scrollbar {
+ul::-webkit-scrollbar {
     padding-top: 5rem;
     height: 0.3125rem;
     width: 100%;
@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
   ul::-webkit-scrollbar-thumb {
     width: 135px;
     background-color: rgba(0, 0, 0, 0.55);
-  } */
+  }
 
 @font-face {
     font-family: 'Cera-Pro-Black';

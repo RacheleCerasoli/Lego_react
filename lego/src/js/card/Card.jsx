@@ -72,7 +72,6 @@ export function Card({ card }) {
   return (
     <div>
       <ul id="sellingCard">{cardReader(card)}</ul>
-      <ProgressMobileStepper  />
     </div>
   ) 
 }
