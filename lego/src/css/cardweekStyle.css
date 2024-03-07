@@ -20,7 +20,7 @@
     border: none;
     outline: none;
     background-color: rgb(225, 249, 224);
-    font-size: 1rem;
+    font-size: 1.01rem;
 }
 
 .cardImageInsider, .cardImageWeek {
@@ -76,4 +76,8 @@ h2 {
     margin-left: 0.625rem;
     height: 12px;
     width: 8px;
+}
+
+h3 {
+    font-size: 1.3rem;
 }
